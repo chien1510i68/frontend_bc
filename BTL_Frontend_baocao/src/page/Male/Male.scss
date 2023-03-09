@@ -1,0 +1,127 @@
+a:hover{
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+}
+a{
+    font: 20px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.seller-btn{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color: #dedcdc;
+    text-transform: uppercase;
+    font-weight: 700;
+    // visibility: hidden;
+}
+
+
+
+
+
+/* Best sellers */
+
+ a {
+    text-decoration: none;
+    color: #000;
+}
+
+.seller {
+    display: flex;
+}
+
+.seller-item {
+    // margin: 0 12px;
+    // padding: 0;
+    // box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.seller-item:hover {
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 30px;
+    transition: all 0.2s ease-in;
+}
+
+.seller-item:hover .seller-btn{
+    visibility: visible;
+}
+.seller-item:hover .seller-img>img{
+    // transform: scale(1.1);
+    transition: .4s;
+    box-sizing: border-box;
+}
+.seller-product {
+    position: relative;
+}
+//  .seller-img img {
+//     width: 270px;
+//     height: 270px;
+// }
+
+ .seller-discount {
+    position: absolute;
+    color: #fff;
+    background-color: #ff5e57;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.seller-btn {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color: #dedcdc;
+    text-transform: uppercase;
+    font-weight: 700;
+    visibility: hidden;
+}
+ .seller-btn:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.seller-description-title {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.seller-description-title p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.seller-description-title h4 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+ .seller-price {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.initial-price {
+    font-size: 13px;
+    color: #7b7b7b;
+    font-weight: 300;
+    text-decoration: line-through;
+    margin-left: 4px;
+}
